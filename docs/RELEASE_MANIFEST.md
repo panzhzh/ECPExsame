@@ -1,6 +1,6 @@
 # Release Manifest
 
-This file describes the intended public-release boundary for the IEMO-MECP
+This file describes the intended anonymous-review boundary for the IEMO-MECP
 artifact.
 
 ## Public Files
@@ -44,7 +44,7 @@ PYTHONPATH=src python scripts/validate_labels.py \
 
 python scripts/generate_figures.py
 
-rg -n "/scr/user|/home/user|ipanzhzh|target_text|cause_text|audio_path|video_path|raw_text|transcript" \
+rg -n "/scr/[^/[:space:]]+|/home/[^/[:space:]]+|target_text|cause_text|audio_path|video_path|raw_text|transcript" \
   release/iemomecp --glob '!paper/figures/**'
 ```
 
@@ -54,6 +54,6 @@ paths or raw utterance text.
 
 ## Naming
 
-- GitHub repository: `iemomecp`
+- Review package name: `iemomecp`
 - Python package: `iemomecp`
 - Paper/dataset display name: `IEMO-MECP`

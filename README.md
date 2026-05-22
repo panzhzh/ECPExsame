@@ -1,8 +1,6 @@
 # IEMO-MECP
 
-Released: May 22, 2026
-
-IEMO-MECP is the release artifact for the paper:
+Anonymous review artifact for the paper:
 
 > They Are Not the Same: Direct Causes Are Not Grounded Emotion Explanations
 
@@ -29,7 +27,7 @@ scripts/                  Validation, figure-generation, and baseline-training e
 paper/figures/            Output directory for regenerated figures.
 ```
 
-The public label files are overlays keyed by `split`, `dialogue_id`,
+The included label files are overlays keyed by `split`, `dialogue_id`,
 `target_emotion_turn`, and `cause_turn`. They intentionally exclude original
 IEMOCAP utterance text, audio, and video.
 
@@ -47,7 +45,7 @@ See `DATA_TERMS.md` for the data-release boundary.
 ## Preparing External Data
 
 For label inspection and figure reproduction, no external data is required. The
-released label overlay and aggregate CSV files are self-contained.
+included label overlay and aggregate CSV files are self-contained.
 
 For full training/evaluation with utterance text or modalities, prepare the
 underlying datasets locally:
@@ -78,7 +76,7 @@ python scripts/build_from_sources.py \
   --output-dir local_data/iemomecp_full
 ```
 
-The public release currently provides the safe label overlay and diagnostics.
+The anonymous review artifact currently provides the safe label overlay and diagnostics.
 The reconstruction entry point documents the expected local interface without
 redistributing IEMOCAP text or media.
 
@@ -90,7 +88,7 @@ Install in editable mode:
 python -m pip install -e .
 ```
 
-Validate the public label overlay:
+Validate the included label overlay:
 
 ```bash
 python scripts/validate_labels.py --label-dir data/labels
@@ -147,7 +145,7 @@ For the original binary-control setting, use the same runner with
 `--pair-role-task source_binary`. Full third-party MECPE-style repositories are
 not vendored into this artifact; see `docs/THIRD_PARTY_BASELINES.md`.
 
-To launch the released lightweight matrix over three seeds:
+To launch the included lightweight matrix over three seeds:
 
 ```bash
 python scripts/launch_baseline_matrix.py \
