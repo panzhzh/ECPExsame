@@ -1,8 +1,10 @@
 # IEMO-MECP
 
+Released: May 22, 2026
+
 IEMO-MECP is the release artifact for the paper:
 
-> Back to Explanation: Rethinking Binary Emotion-Cause Pair Scores as Evidence of Causal Reasoning
+> They Are Not the Same: Direct Causes Are Not Grounded Emotion Explanations
 
 The repository provides a pair-role label overlay and diagnostic code for studying
 evaluation validity in binary Emotion-Cause Pair Extraction (ECPE). IEMOCAP is the
