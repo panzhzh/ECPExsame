@@ -1,0 +1,9 @@
+file,rows,manual_final_label__emo_cause,manual_final_label__emo_context,original_binary_role__orig_non_pair,original_binary_role__orig_pair,transition_types,manual_final_label__non_pair,original_binary_role__human_judge
+emo_cause_no_context_multi_cause_human_review_1211_targets_2678_pairs.csv,2678,2428.0,250.0,111.0,2567.0,emo_cause_no_emo_context_multi_cause,0.0,0.0
+emo_cause_no_context_single_cause_add_emo_context_human_review_448.csv,448,0.0,448.0,446.0,2.0,single_cause_no_context_neighbor_non_pair_distance_1_5,0.0,0.0
+emo_cause_no_context_single_cause_human_review_2082_targets_2082_pairs.csv,2082,2082.0,0.0,3.0,2079.0,emo_cause_no_emo_context_single_cause,0.0,0.0
+orig_non_pair_to_emo_cause_human_review_2517.csv,2517,327.0,118.0,2517.0,0.0,orig_non_pair_to_emo_cause,2072.0,0.0
+orig_non_pair_to_emo_context_human_review_2975.csv,2975,0.0,2969.0,2975.0,0.0,orig_non_pair_to_emo_context,6.0,0.0
+orig_pair_to_emo_context_human_review_724.csv,724,292.0,432.0,0.0,724.0,orig_pair_to_emo_context,0.0,0.0
+orig_pair_to_non_pair_human_review_2138.csv,2138,2016.0,79.0,0.0,2138.0,orig_pair_to_non_pair,43.0,0.0
+zz_recover_no_cause_targets_from_original_labels_188_targets_306_pairs.csv,306,188.0,118.0,0.0,257.0,recover_no_cause_target_after_latest_human_check;recover_no_cause_target_from_original_label,0.0,49.0

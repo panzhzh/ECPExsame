@@ -1,0 +1,7 @@
+metric,value,model_source
+ctx_hit_rate,0.2133065864259445,RWC-Fusion
+ctx_pred_emo_cause_rate,0.0952858575727181,RWC-Fusion
+ctx_pred_non_pair_rate,0.6914075560013373,RWC-Fusion
+ctx_collapse_rate,0.7866934135740555,RWC-Fusion
+missed_ctx_error_share_to_emo_cause,0.12112197195070117,RWC-Fusion
+missed_ctx_error_share_to_non_pair,0.8788780280492988,RWC-Fusion

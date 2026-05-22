@@ -1,0 +1,4 @@
+gold_role,prob_emo_context_mean,delta_emo_context_after_removal_mean,model_source
+emo_cause,0.1493712186924199,0.0651900111746228,RWC-Fusion
+emo_context,0.2428723583859259,0.1546005490831489,RWC-Fusion
+non_pair,0.1278208440697089,0.0527096135737462,RWC-Fusion

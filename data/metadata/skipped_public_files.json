@@ -1,0 +1,10 @@
+[
+  {
+    "file": "boundary_example_candidates.csv",
+    "reason": "contains raw text columns",
+    "columns": [
+      "target_text",
+      "cause_text"
+    ]
+  }
+]

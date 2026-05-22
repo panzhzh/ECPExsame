@@ -1,0 +1,4 @@
+gold_role,prob_pair_mean,model_source,binary_axis_coordinate
+emo_cause,0.4044487382762054,RWC-Fusion,1.0
+emo_context,0.1181921082537091,RWC-Fusion,0.09386412824016444
+non_pair,0.0885395695258853,RWC-Fusion,0.0

@@ -1,0 +1,33 @@
+{
+  "dataset": "IEMO-MECP",
+  "task": "pair_role",
+  "base_corpus": "IEMOCAP",
+  "source_annotation": "ConvECPE/ECPEC source binary EC pairs",
+  "label_space": [
+    {
+      "id": 0,
+      "name": "emo-cause",
+      "json_name": "emo_cause",
+      "description": "Direct trigger, event, or appraisal evidence for the target emotion."
+    },
+    {
+      "id": 1,
+      "name": "emo-context",
+      "json_name": "emo_context",
+      "description": "Non-triggering discourse evidence that helps interpret the target emotion."
+    },
+    {
+      "id": 2,
+      "name": "non-pair",
+      "json_name": "non_pair",
+      "description": "Insufficient evidence for direct cause or contextual emotional support."
+    }
+  ],
+  "context_subtype_space": [
+    "background",
+    "discourse_bridge",
+    "implicit_or_extra_context",
+    "alternative_plausible_cause"
+  ],
+  "file_note": "Label files are overlays keyed by split, dialogue_id, target_emotion_turn, and cause_turn. They do not include IEMOCAP utterance text or media."
+}

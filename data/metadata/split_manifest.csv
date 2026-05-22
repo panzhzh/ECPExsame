@@ -1,0 +1,4 @@
+split,pairs,emo_cause,emo_context,non_pair,temporal_exception_pairs
+train,53323,5499,2630,45194,147
+valid,14488,1342,719,12427,38
+test,18264,1794,997,15473,36

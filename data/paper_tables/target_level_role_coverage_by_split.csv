@@ -1,0 +1,4 @@
+split,non_neutral_targets,targets_with_emo_cause,targets_with_emo_cause_pct,targets_with_emo_context,targets_with_emo_context_pct,targets_with_both,targets_with_both_pct
+test,1239,1239,1.0,605,0.4882970137207425,605,0.4882970137207425
+train,3554,3554,1.0,1805,0.507878446820484,1805,0.507878446820484
+valid,932,932,1.0,439,0.47103004291845496,439,0.47103004291845496

@@ -1,0 +1,6 @@
+source,split_scope,pairs,covered_by_rwc_fusion_uncertainty,not_covered_by_rwc_fusion_uncertainty,covered_by_current_final_labels,not_covered_by_current_final_labels
+current_final_labels_all_splits,train+valid+test,86075,86075.0,0.0,,
+current_final_labels_train,train,53323,53323.0,0.0,,
+current_final_labels_valid,valid,14488,14488.0,0.0,,
+current_final_labels_test,test,18264,18264.0,0.0,,
+RWC-Fusion_binary_source_uncertainty_scores,train+valid+test,86075,,,86075.0,0.0
