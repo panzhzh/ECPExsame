@@ -1,6 +1,6 @@
 # IEMO-MECP
 
-Anonymous review artifact for the paper:
+This is the official repo for:
 
 > They Are Not the Same: Direct Causes Are Not Grounded Emotion Explanations
 
