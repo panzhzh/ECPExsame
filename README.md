@@ -180,3 +180,11 @@ and is intentionally not made possible from redistributed raw dialogue text.
 
 If you use this artifact, please cite the paper and the underlying IEMOCAP and
 ConvECPE/ECPEC resources. A `CITATION.cff` file is included for the artifact.
+```bibtex
+@article{pan2026they,
+  title={They Are Not the Same: Direct Causes Are Not Grounded Emotion Explanations},
+  author={Pan, Zhuangzhuang and Xia, Yan and Chan, Chee Seng},
+  journal={arXiv preprint arXiv:2605.25208},
+  year={2026}
+}
+```
