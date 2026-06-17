@@ -1,4 +1,7 @@
-# IEMO-MECP
+# IEMO-MECP 
+<a href="https://arxiv.org/abs/2605.25208" target="_blank">
+  <img src="https://img.shields.io/badge/Paper-arXiv-red?style=for-the-badge&logo=arxiv" alt="Paper">
+</a>
 
 This is the official repo for:
 
