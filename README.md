@@ -17,6 +17,10 @@ the same lower-triangular target-candidate pair space:
 - `emo-context`: non-triggering discourse evidence that helps interpret the target emotion.
 - `non-pair`: insufficient evidence for direct causality or contextual emotional support.
 
+##### Updated on June 18, 2026 (Paper is uploaded)
+
+##### Released on May 13, 2026
+
 ## What Is Included
 
 ```text
