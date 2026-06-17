@@ -1,11 +1,18 @@
-# IEMO-MECP 
+# IEMO-MECP: An evaluation validity in binary Emotion-Cause Pair Extraction (ECPE)
+
+This is the official repo for: **They Are Not the Same: Direct Causes Are Not Grounded Emotion Explanations**
+<p>
 <a href="https://arxiv.org/abs/2605.25208" target="_blank">
   <img src="https://img.shields.io/badge/Paper-arXiv-red?style=for-the-badge&logo=arxiv" alt="Paper">
 </a>
 
-This is the official repo for:
+##### Updated on June 18, 2026 (Paper is uploaded)
 
-> They Are Not the Same: Direct Causes Are Not Grounded Emotion Explanations
+##### Released on May 13, 2026
+
+---
+
+
 
 The repository provides a pair-role label overlay and diagnostic code for studying
 evaluation validity in binary Emotion-Cause Pair Extraction (ECPE). IEMOCAP is the
@@ -16,10 +23,6 @@ the same lower-triangular target-candidate pair space:
 - `emo-cause`: direct trigger, event, or appraisal evidence for the target emotion.
 - `emo-context`: non-triggering discourse evidence that helps interpret the target emotion.
 - `non-pair`: insufficient evidence for direct causality or contextual emotional support.
-
-##### Updated on June 18, 2026 (Paper is uploaded)
-
-##### Released on May 13, 2026
 
 ## What Is Included
 
